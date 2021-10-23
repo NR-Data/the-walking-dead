@@ -1,0 +1,2280 @@
+{
+  "catalogue": {
+    "name": "Woodbury Army",
+    "id": "1a2b-4bbb-e9e4-e427",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "125b-b4ca-b2a2-2c84",
+    "gameSystemRevision": 16,
+    "library": false,
+    "revision": 12,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Eugene Cooney",
+        "id": "6e8f-1828-d777-96c2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1738-0aae-4a98-5b17", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "a103-43ac-f454-79b1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "d26c-a7c5-08f5-87b3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c7d5-d0c1-461b-5462",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "06b1-cd58-aad8-a2d7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "bd9d-ef8d-f586-3fb6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "f5c2-1b0d-e13f-106c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "3172-10da-93b6-11a6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "1020-3a55-7398-ba58",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Eugene Cooney",
+            "id": "35ba-5e0a-3b0a-ee24",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White 1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "-", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White 1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Dirty Fighter",
+            "id": "e377-afd5-722c-fdcc",
+            "description": "Whenever Eugene attacks in melee and loses or draws, immediately add 1 red die to his melee attack roll.",
+            "hidden": false
+          },
+          {
+            "name": "Stab!",
+            "id": "7a9b-c670-0328-ece0",
+            "description": "Eugene may reroll any or all of his melee attack dice when using a weapon with the \"Sharp\" keyword.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Harold Abernathy",
+        "id": "d944-4bec-3eb8-d9e6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "aedf-e57c-18eb-5909", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "43a2-31c4-8728-64e6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "54be-66c5-bcea-f23c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "b7c9-93ab-1e71-2cc0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "7a69-6eb1-5b63-9af1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "2899-2342-ab91-bc4e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "d1c5-f177-ad98-9411",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "766a-1b5d-be9a-d9ba",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "6b81-dfd3-60a2-fc4d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Harold Abernathy",
+            "id": "4a60-a74c-a391-cb94",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "2 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "-", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Muscle",
+            "id": "de45-ce54-248c-654d",
+            "description": "If Harold is on the winning side in melee and choose to attack, his side inflicts 1 extra point of damage against the enemy.",
+            "hidden": false
+          },
+          {
+            "name": "Scrapper",
+            "id": "e2a4-7b8f-6831-c0a0",
+            "description": "Harold always wins in a drawn combat, even when he is fighting other Survivors and his side doesn`t have the Initiative.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Alice",
+        "id": "40dd-7df7-00b4-f4f2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a249-66b5-6bd2-e37a", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "5995-b339-34c2-4bb0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "6cac-011b-fd34-2278",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7654-2b67-e913-0d86",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "acf2-90c9-a97d-2995",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "2c03-6257-742f-b0ca",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "58ed-b62b-4539-0de0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "33a0-2a1f-6c5c-23c9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "fefb-5ed7-5a5f-977f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Alice",
+            "id": "6d9c-a647-8362-625e",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Healer",
+            "id": "e8b0-64c5-2096-a509",
+            "description": "As an Action, Alice may restore 1 red die health lost earlier in the game, to herself or a friendly model in her Kill Zone. Alice may use Bandages on any other model within her Kill Zone.\nWhen Alice uses any item of equipment that restores lost wounds, she restores 1 extra wound.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Dr. Stevens",
+        "id": "e511-2153-4c92-4d77",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8bf4-b06b-c81e-5a56", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "e35d-6eb5-5ca8-f583",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 25}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "fc5d-529d-543a-2071",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "21fb-caef-560f-428e",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "e026-781d-62cd-e631",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "177e-7748-299b-9fbc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "7a58-46c8-61d1-fd45",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "6095-a294-1cf4-af6c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "66c3-3501-2931-2942",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dr. Stevens",
+            "id": "989c-78dd-b96e-d478",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "-", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "-", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Low", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Medical Professional",
+            "id": "c731-1918-71bc-cd91",
+            "description": "As an Action, Stevens may restore 1 white die health lost earlier in the game, to himself or a friendly model in his Kill Zone. Stevens may use Bandages on any other model within his Kill Zone.\nWhen Stevens uses any item that restores lost wounds, he restores 1 extra wound.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Curtis",
+        "id": "2d28-097c-8e57-a3c0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ee51-f4a7-dc23-7ede", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "constraints": [
+          {
+            "id": "4f0c-9a30-5eb8-c5bb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 21}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "69b8-9717-aa49-3bcd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "32f8-96e7-4ee8-fb26",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "9085-50ae-9044-acf4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "4a2a-08de-62e6-7453",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "c88a-d852-d0df-8325",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "acd4-cbc6-82c2-69a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "1513-4639-6b51-96e3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Curtis",
+            "id": "ca15-9891-c570-865c",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bruce Cooper",
+        "id": "cd6a-02d5-61c7-b131",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4cc7-ba85-0de8-e070", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "f1f9-e4ca-f27e-6a3b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "52f0-6d8f-927b-4566",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "ca60-12d1-0af5-e63f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "97e4-8d50-78e4-09c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "6dec-66c6-c113-1a77",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "be00-0c11-336c-99a4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "c2ed-b15d-a7ef-63c5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "48bc-47ce-8658-3c9e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Bruce Cooper",
+            "id": "25f8-6e7f-4966-e062",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "The Muscle",
+            "id": "53f0-73c8-64eb-5c00",
+            "description": "If Bruce is on the winning side in melee and choose to attack, his side inflicts 1 extra point of damage against the enemy.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Gloria",
+        "id": "e54e-dcf3-9210-ef65",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b28f-1be1-12e7-b308", "hidden": false, "primary": true, "targetId": "48a7-24df-def3-914a"}],
+        "constraints": [
+          {
+            "id": "30f9-c19a-4c11-8985",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 28}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "2a7c-7f1a-abb6-264e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e1d4-9644-0f74-99a1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "a832-c8c3-ce62-5f9d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "0207-1d7d-59e1-d3a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "438d-8a7a-9df1-c374",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "6e48-3f76-6f8c-796d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "258c-cd22-0aca-036c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gloria",
+            "id": "f24e-f4ba-bf28-bc72",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Marksman", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [{"name": "Die Hard", "id": "33bf-af6d-70b9-4f4b", "description": "Gloria deducts 1 point of damage inflicted against her in each melee.", "hidden": false}]
+      },
+      {
+        "name": "Bob",
+        "id": "e36d-d6d0-9a4e-df46",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3db7-0c59-1111-0db8", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "edd0-7a05-eac5-7044",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 23}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "330a-ee76-a5f9-ecae",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5f16-7bb3-62b6-1067",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "7843-b66a-9b96-d8e8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "b828-7123-e30d-3606",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "e87d-695d-0cb3-85b7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "fb6b-05e6-1cd5-394b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "aea3-2446-9e87-69ff",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Bob",
+            "id": "4d5f-5de0-9abb-4d47",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Special", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bottom of a Bottle",
+            "id": "f9ed-e16c-303e-916e",
+            "description": "At the start of each of Bob`s activations, before Panic is rolled, roll a black die.\nOn a Shield, Bob`s Nerve is High this turn.\nOn a blank, his Nerve is Low.",
+            "hidden": false
+          },
+          {
+            "name": "Patch-Up",
+            "id": "8a91-6b77-5a64-31c4",
+            "description": "Bob may use Bandages on any other model within his Kill Zone.\nWhen Bob uses any item that restores lost wounds, he restores 1 extra wound.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Martinez",
+        "id": "b738-115a-bcb9-5b96",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fdd9-0dd9-3240-b4d1", "hidden": false, "primary": true, "targetId": "48a7-24df-def3-914a"}],
+        "constraints": [
+          {
+            "id": "7c96-1bf3-6f66-62b1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 45}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "730e-6c88-79d5-8fdf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7ac7-3b0e-e7c0-9202",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "4d41-c97a-c646-4e84",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "5ffc-3726-6b99-438a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "31a3-96e7-646c-2b59",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "7b81-0b61-8160-69c9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "8015-7dd8-8d55-4d90",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Martinez",
+            "id": "4eb8-4153-23fb-a956",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White 1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Marksman", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Right-Hand Man",
+            "id": "480d-9a8f-a887-620b",
+            "description": "If Brian Blake is in the same group and is removed as a casualty, Martinez immediately gains Brian`s Leader ability, and counts as the group Leader from that point on.",
+            "hidden": false
+          },
+          {
+            "name": "Wall Guard",
+            "id": "36ff-4cef-142c-69ce",
+            "description": "Martinez and all friendly models within his Kill Zone may reroll blanks when making a Shoot Action.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Gabe Harris",
+        "id": "9928-8db3-52c1-00a1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7a90-83ce-2220-0ea5", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "f93f-2da8-e2b5-0d15",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 36}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "0db6-fe35-ffc9-64c3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "0169-52fd-f7e4-3cb7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "b6d5-c639-ead5-f36f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "6208-7228-b055-e90a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "50d0-7435-cf33-59f3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "76aa-a563-fd50-783d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "59ae-f5e1-4207-1ddb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Gabe Harris",
+            "id": "cfa2-b25b-0c12-72f5",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "2 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bodyguard",
+            "id": "8aae-efa0-c1c7-2366",
+            "description": "If Brian Blake is in the same group and is targeted by a ranged attack while within Gabe`s Kill Zone, Gabe may take the attack on his behalf. Gabe becomes the new target, even if he was not initially within range or line of sight.",
+            "hidden": false
+          },
+          {"name": "Out of Shape", "id": "a2de-1f64-127e-d8b2", "description": "Gabe can only Sneak 3\", and Run 6\".", "hidden": false}
+        ]
+      },
+      {
+        "name": "Brian Blake, The Governor",
+        "id": "a96f-0bf3-9d7b-b084",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d20c-254a-87a4-7f7c", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "dcbf-e03d-9108-ded6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 70}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "3169-b67c-c50c-aebe",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "9316-50b0-42ce-0362",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "9318-a0c5-56cf-e4fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "28c9-cc2a-5902-c8f5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "d2d4-a6aa-4210-f979",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "2c14-c7e3-b941-9175",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "6a18-cc94-27fe-0487",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "30e8-16a4-e5d9-9598",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Brian Blake, The Governor",
+            "id": "79d4-803d-390e-69d6",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "7", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Brutal",
+            "id": "c667-ae1f-53fb-41df",
+            "description": "When the Governor is on the winning side in a melee, add 1 white die to the damage caused.",
+            "hidden": false
+          },
+          {
+            "name": "Hard to Kill",
+            "id": "10df-59f9-78db-394e",
+            "description": "Each time the Governor suffers 2 or more damage from a single attack, roll a black die.\nOn a shield, reduce the number of wounds inflicted against him by 1.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Be More Afraid of Me...",
+            "id": "dd68-30aa-8130-e6a9",
+            "description": "Any friendly model within the Governor`s Kill Zone uses his Nerve value instead of its own.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Brian Blake, Mutilated and Merciless",
+        "id": "30e8-16a4-e5d9-9598",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "7698-bf2b-de14-d4f5", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "f2a7-ef2d-eb78-4e93",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 62}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "1577-afca-fcec-1439",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6948-787c-6851-87e4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "4e47-8fd4-54d8-00de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "3e6e-c82c-4fff-3638",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "b782-bd58-599e-23b1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "a9d8-dbf0-f991-1c65",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "fd4f-4766-53f3-abdd",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a96f-0bf3-9d7b-b084",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Brian Blake, Mutilated and Merciless",
+            "id": "701e-912f-60e2-b2f4",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Executioner",
+            "id": "9d59-a390-63a5-c898",
+            "description": "Brian never makes attack rolls against prone enemy Survivors.\nInstead, they are automatically removed once he declares his attack.\nEach model removed in this way adds 1 red die to Brian`s special dice pool.",
+            "hidden": false
+          },
+          {
+            "name": "Hates Cowardice",
+            "id": "798e-7ede-ebd3-b2b1",
+            "description": "If a friendly model within 6\" of Brian is Panicking and Brian is not engaged, he lashes out. The model loses 1 health. If it survives, it ignores the Panic rules for that turn.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Kill Them All!",
+            "id": "13ad-dacd-5339-ff07",
+            "description": "Each time Brian sucessfully wounds an enemy Survivor, add 1 white die to a special pool on this card.\nAny model in Brian`s group may add one of these dice to any attack roll.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Lilly",
+        "id": "faa6-3929-1b2b-e32c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "22fb-1940-19b6-437e", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "8419-6b5c-2204-77b0",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "139d-bae9-b8cb-e1f0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3a14-2725-da3e-0133",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "0272-ff9c-4bd0-66b8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "1139-041d-46d3-d20d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "f865-a054-b951-3f96",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "81fc-685e-02d9-5318",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "5d08-cb1b-c238-d7fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Lilly",
+            "id": "3897-4b9b-fca7-5d57",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Leader Ability: Mind Games",
+            "id": "c717-ab27-38d6-236f",
+            "description": "Once per game, Lilly may steal the Initiative from her opponent. If both groups contain a Leader with this ability, the Initiative may be stolen back again!",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Raymond",
+        "id": "71ae-9e30-526c-0a81",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c09c-daa6-4a7a-7ce6", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "constraints": [
+          {
+            "id": "b4b8-1c98-4009-7b2d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 21}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "3125-4688-72c8-9727",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c624-d7fc-ee85-d0e2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "b4d7-9842-043e-c2d4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "871a-b5bc-3485-c8f8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "bb7b-3dcb-feca-9182",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "9a07-2f32-a7b2-f80f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "f3af-ca14-955f-dec5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Raymond",
+            "id": "b424-6c1a-6997-f83b",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Smitty",
+        "id": "923b-c67b-99af-3a5b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e860-4350-9ba2-d951", "hidden": false, "primary": true, "targetId": "48a7-24df-def3-914a"}],
+        "constraints": [
+          {
+            "id": "2790-6a1f-9264-4b30",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 22}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "e6e2-a0b1-a876-c951",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "631f-44b0-45a1-9c7b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "cb79-57c3-4466-42e2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "1212-b6c3-e572-4d7c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "26b4-8bda-1711-4304",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "f9b8-e063-90d9-2fb5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "e228-addd-4cbc-1a8b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Smitty",
+            "id": "f457-0c10-8530-8e39",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Low", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Marksman", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Guilty Conscience",
+            "id": "83b0-fcd9-5751-a9eb",
+            "description": "Whenever Smitty takes another Survivor out of action (or is on the side in melee that does), roll a Black die. On a blank, he loses 1 Action in his next activation.",
+            "hidden": false
+          },
+          {"name": "Hunter", "id": "6f75-e260-b443-19cf", "description": "Smitty does not halve his movement when moving through Area Terrain.", "hidden": false}
+        ]
+      },
+      {
+        "name": "Tom",
+        "id": "00e3-d082-6fa9-f5df",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8941-1b92-8f41-8aae", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "19f1-1f02-5174-1228",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "98b6-d8bc-874e-46f1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "ff63-e32f-d143-9f1b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "52c8-5442-8714-9d07",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "71c4-aee5-bdb1-053f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "cecf-bb83-0528-608f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "056a-a54c-ee18-b9d4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "f4f5-326c-29b5-7be9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tom",
+            "id": "8843-b2c2-d00a-a203",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White, 1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Shove!",
+            "id": "a0cb-6723-f4c2-596d",
+            "description": "At the start of the combat in which Tom is engaged, before any attack dice are rolled, he may roll one Black die for one enemy in base contact. On a Shield, the model is moved 1\" away from Tom, exactly as if it had been pushed back, and may not take part in the melee.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Wes",
+        "id": "0bae-3d0c-9e04-5ea7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9f30-3351-9566-bf1e", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "9ad4-5f81-795d-58e6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 23}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "ad5d-c9fb-0dbd-0c39",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e69a-9f24-05a8-05c1",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "1d9c-56f1-e3be-254c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "cea1-8311-c02e-792c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "80ea-a141-b0c0-e4e1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "a53d-d05f-b304-82ec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "cd36-4a23-81da-6f10",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Wes",
+            "id": "2061-1568-2c2a-5189",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Low", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Adrenaline Junkie",
+            "id": "bdc5-e5f3-3adb-a3c0",
+            "description": "While the Threat Level is High, Wes gains one extra Action each turn.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Brian Blake, Trophy Collector",
+        "id": "7153-39db-7b83-6a6b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4564-bcc7-87df-958f", "hidden": false, "primary": false, "targetId": "fbb7-4f0b-b3a0-4027"},
+          {"name": "Bruiser", "id": "7f54-7839-0b65-0f73", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}
+        ],
+        "constraints": [
+          {
+            "id": "01fa-dc81-90db-02bf",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 72}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "bd2c-d7fb-9c2e-c6cb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "452a-6a7f-5d20-6452",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Armor",
+            "id": "f6a0-c540-ee5a-6383",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "6efc-1983-be85-574e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "5367-2a76-2233-55da",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "e281-3882-119d-7791",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "e102-49f2-ea48-4147",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditions": [
+              {
+                "childId": "a96f-0bf3-9d7b-b084",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": false,
+                "type": "equalTo",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Brian Blake, Mutilated and Merciless",
+            "id": "db94-8ffa-1aad-f49f",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "7", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Woodbury Army", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Trophy Collector",
+            "id": "228e-27ab-e59b-02b3",
+            "description": "If Brian removes a Survivor from play in Melee without a !, he receives 1 Searched Supply Counter.",
+            "hidden": false
+          },
+          {
+            "name": "That's Entertainment",
+            "id": "eb10-927a-273e-d54d",
+            "description": "As an Action, Brian my push any Survivor in his Kill Zone up to 2\" as long as this moves them towards an enemy model.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Do As I Say",
+            "id": "2494-c5ab-4b52-aee7",
+            "description": "Once per activation, Brian may Make NOISE and choose a Friendly Woodbury Army Survivor within 10\". \n\nThat Survivor immediately activates, interrupting Brian's activation. This is not an Action.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Teamwork Cards",
+        "id": "1801-91f1-f2ba-8bd8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Teamwork Cards",
+            "id": "527e-3395-a878-8e3e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c9f5-39a2-8e8d-a73c",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Teamwork Cards", "id": "2182-3c97-6328-3976", "hidden": false, "primary": false, "targetId": "38ef-10da-ce53-bd44"}]
+          }
+        ]
+      }
+    ]
+  }
+}

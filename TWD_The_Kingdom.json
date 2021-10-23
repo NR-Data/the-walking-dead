@@ -1,0 +1,932 @@
+{
+  "catalogue": {
+    "name": "The Kingdom",
+    "id": "bc61-6532-3cb1-52d4",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "125b-b4ca-b2a2-2c84",
+    "gameSystemRevision": 16,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Ezekiel",
+        "id": "47bc-4025-914a-36a6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"id": "47bc-4025-914a-36a6-b936-ac92-62ac-545e", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "1a46-da80-8b91-efee",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 56}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "edf7-4e40-e479-6509",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "1739-df5f-c830-7a9e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "5119-378e-fd34-9689",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "43cd-32a1-e72d-3914",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "36eb-10c9-abef-645d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "a67b-5d34-4cd3-7705",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ezekiel",
+            "id": "43c2-f2a2-fdfb-c8b4",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "3 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Commanding Presence",
+            "id": "709d-dcd7-1926-bc7b",
+            "description": "When making a Hold Your Nerve Action, Ezekial does not roll the Black die. Instead, he immediately reduces the Threat Level by 1 White.",
+            "hidden": false
+          },
+          {
+            "name": "Shiva",
+            "id": "71c6-4b80-094a-a496",
+            "description": "If Shiva is engaged in the same combat as Ezekiel, both Ezekiel and Shiva add 1 Red to their melee attack rolls.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: The King",
+            "id": "3707-51fd-c106-1b4d",
+            "description": "Once per game, Ezekiel and every Survivor in his group from the Kingdom Faction may perform one extra Action during their activation. This bonus lasts for only a single Action phase - if the extra Action is not used, it is wasted.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Shiva",
+        "id": "e656-6fdf-fb0c-c5b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"id": "e656-6fdf-fb0c-c5b7-1c6d-9084-4b8d-4340", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "c522-10a3-8f2a-e1b1",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 44}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "e9fa-5936-0db4-9c68",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "bef8-5d08-eb0b-bbc5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Shiva",
+            "id": "ccef-47da-8478-06cc",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue 1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "-", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White 1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "0", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Beast",
+            "id": "2914-b818-cd68-3208",
+            "description": "Shiva may Run 10\" and may never Defend in combat. In addition, all of her melee attacks have the Sharp keyword.",
+            "hidden": false
+          },
+          {
+            "name": "Tiger!",
+            "id": "5eb0-fc8f-67b9-51c9",
+            "description": "Enemy Survivors within Shiva's Kill Zone treat their Nerve as one level lower than usual.",
+            "hidden": false
+          },
+          {
+            "name": "Furious Assault",
+            "id": "3a25-619f-2605-45ec",
+            "description": "Once per turn, if Shiva wins a melee, she may immediately move into base contact with a new, standing enemy within 6\". Resolve this new combat immediately, even if one or more combatants has already fought.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "King Ezekiel",
+        "id": "15e0-9b1d-2672-3191",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a046-cf7f-3b25-4318", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "b4a9-a81b-d767-0353",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 56}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "23ff-c55b-4cce-96c5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "4e09-f53f-2de5-cfcb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "52a0-497f-69ed-5364",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "e03c-9291-c513-35a1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "f443-1b1c-8e85-6b26",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "c463-8262-9f47-00d6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "King Ezekiel",
+            "id": "fda8-5676-b297-69e9",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "2 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Kingly",
+            "id": "d921-3776-f6da-791a",
+            "description": "When making a Hold Your Nerve action, Ezekiel does not roll 1Black. Instead, he immediately reduces the Threat Level by 1Blue.",
+            "hidden": false
+          },
+          {
+            "name": "Protector of the Realm",
+            "id": "e468-80cb-1214-c78e",
+            "description": "Friendly Kingdom models within Ezekiel's Kill Zone may replace one die from their defense rolls with 1Blue.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Royal Decree",
+            "id": "7e73-d7be-0ab9-2f03",
+            "description": "Once per game, as a Special Action, Ezekiel may award +1 action to all friendly Kingdom models within 6\".",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Kingdom Guard 1",
+        "id": "c2cb-35a0-43ad-670a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Bruiser", "id": "d9ee-2f9d-46b3-90bb", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Ranged Weapons",
+            "id": "c4d5-c4bd-0dbb-262f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "a44b-3b9e-287e-fb6d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "6782-fba9-3529-af02",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "243a-3a66-3291-5779",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Minion", "id": "62d0-9800-e375-c86f", "hidden": false, "targetId": "7f1c-a5b9-57b2-4dce", "type": "rule"},
+          {"name": "Born in the Saddle", "id": "73e6-0282-f006-ce17", "hidden": false, "targetId": "2373-d4d5-296d-436c", "type": "rule"},
+          {"name": "Here Comes the Cavalry", "id": "8373-9a3e-6789-a762", "hidden": false, "targetId": "e018-09e2-38ab-2059", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Kingdom Guard 1",
+            "id": "69ef-8078-a6f5-a85a",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "2 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kingdom Guard 2",
+        "id": "80cf-2f28-ff5f-2d9b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a44a-0765-f8a6-c23c", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 38}],
+        "entryLinks": [
+          {
+            "name": "Ranged Weapons",
+            "id": "9c1a-97a5-6003-ab2d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "9899-fe6f-3460-f702",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "ba27-42ed-9503-3857",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "75c2-1ede-bd91-e26c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Minion", "id": "8e09-5ac7-ef54-2bea", "hidden": false, "targetId": "7f1c-a5b9-57b2-4dce", "type": "rule"},
+          {"name": "Born in the Saddle", "id": "26f5-0141-cb0f-88b1", "hidden": false, "targetId": "2373-d4d5-296d-436c", "type": "rule"},
+          {"name": "Here Comes the Cavalry", "id": "6b73-4b70-e0ce-c820", "hidden": false, "targetId": "e018-09e2-38ab-2059", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Kingdom Guard 2",
+            "id": "e78d-be66-6789-c7c5",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "2 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gus",
+        "id": "697c-5cc8-a9f9-7804",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Support", "id": "31ff-db50-6707-f000", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "3967-9262-289b-af2a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 47}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "92b8-46d3-7117-9eec",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "71e2-f0a3-fd0e-f1d2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "95f3-32a8-d99f-84c4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "ab60-ebcb-2118-3824",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "5051-0a52-4dbe-33e8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "11f7-8ede-51c0-be92",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Born in the Saddle", "id": "164f-71ee-566d-bf50", "hidden": false, "targetId": "2373-d4d5-296d-436c", "type": "rule"},
+          {"name": "Here Comes the Cavalry", "id": "5f6d-5197-3919-abf4", "hidden": false, "targetId": "e018-09e2-38ab-2059", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Gus",
+            "id": "979e-bb53-9ffc-05d9",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "4", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Trustworthy",
+            "id": "a314-88db-45b2-a3d2",
+            "description": "Once per activation, Gus may choose a friendly model in his Kill Zone yet to activate and either: take one Action from that model to use in his own activation, or: give one of his Actions to that model to use in its next activation. Both Gus and the target model add 1Red to their Defense for the rest of the turn.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Taylor",
+        "id": "a549-a8d8-ed70-9a24",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f479-2c50-44f0-ae86", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "1f67-95e2-42df-bed6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 47}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "7d38-f316-520c-bc05",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "3ab0-1bca-c446-fa42",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "03e6-693f-6524-89a0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "e2fa-b3ac-c00b-5c1b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "df3d-899c-3fd4-fdd8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "d1d4-a04d-5a57-9546",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Born in the Saddle", "id": "f53b-1fea-ba94-57b7", "hidden": false, "targetId": "2373-d4d5-296d-436c", "type": "rule"},
+          {"name": "Here Comes the Cavalry", "id": "55d1-f9af-3fad-e18c", "hidden": false, "targetId": "e018-09e2-38ab-2059", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Taylor",
+            "id": "7ddd-f08e-7bb9-6cd1",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "4", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Benjamin",
+        "id": "86c0-221c-2f44-eb89",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "0461-6ead-aaa1-b6df", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "constraints": [
+          {
+            "id": "a367-68a9-688a-027e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "0127-9d8c-7130-05e3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "8c9d-dfd0-4a94-ad11",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "a65e-c500-b4d8-8677",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "8f23-8fd8-83d9-c499",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "42f9-9b4a-d495-cbdf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "48f6-390c-4375-a550",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "infoLinks": [
+          {"name": "Born in the Saddle", "id": "8154-1922-11f0-d2a7", "hidden": false, "targetId": "2373-d4d5-296d-436c", "type": "rule"},
+          {"name": "Here Comes the Cavalry", "id": "52e5-4309-6f78-6619", "hidden": false, "targetId": "e018-09e2-38ab-2059", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Benjamin",
+            "id": "d3d7-bce1-f097-b62d",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Probation",
+            "id": "9e42-0c9f-0fe1-ae2a",
+            "description": "If Benjamin begins his activation more than 8\" from the group's Leader, roll 1Black. On a blank, his Nerve is LOW this turn, but all friendly models in his Kill Zone add 1Red to their Defense. On a Shield, he treats his Nerve as HIGH for the rest of the turn.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Richard",
+        "id": "19f7-252d-4fc6-a0ce",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2704-13db-b74d-93c0", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "3a2e-cc17-724e-e606",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 47}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "14b4-a43a-4a0d-e3a8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "0f2b-0aca-590d-bec5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "b08d-8be2-8007-105e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "6342-ca6c-4bbd-67ed",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "d8f4-975d-530b-1ee8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "decb-a875-bac1-9be9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Richard",
+            "id": "5dd3-6dc3-1a77-838e",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Kingdom", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Eyes and Ears...",
+            "id": "e671-0b7b-4198-b812",
+            "description": "When both a friendly King Ezekiel model and an enemy Survivor are within 6\" and Line of Sight of Richard, roll 1Black as a Special Action. On a Shield, the enemy model loses 1 Action in its next activation, while Ezekiel gains +1 Action in his.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Right Hand Man",
+            "id": "746c-847a-1a2d-b489",
+            "description": "If Ezekiel is in the same group and is removed as a casualty, Richard immediately gains Ezekiel's Leader ability, and counts as the group Leader from that point on.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Teamwork Cards",
+        "id": "becf-c103-0a62-4da2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Teamwork Cards",
+            "id": "14e0-e721-b701-4abf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c9f5-39a2-8e8d-a73c",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Teamwork Cards", "id": "e321-326e-d488-d391", "hidden": false, "primary": false, "targetId": "38ef-10da-ce53-bd44"}]
+          }
+        ]
+      }
+    ]
+  }
+}

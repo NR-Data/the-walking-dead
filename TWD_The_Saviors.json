@@ -1,0 +1,832 @@
+{
+  "catalogue": {
+    "name": "The Saviors",
+    "id": "6abf-73bd-b580-dc69",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "125b-b4ca-b2a2-2c84",
+    "gameSystemRevision": 16,
+    "library": false,
+    "revision": 3,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Negan, Savior Leader",
+        "id": "b96a-7ae6-4639-4885",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"id": "b96a-7ae6-4639-4885-b936-ac92-62ac-545e", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "4adf-b1e2-5e05-df29",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 70}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "41ef-be57-8a3d-54a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "77ae-4e35-67b1-11d5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "1110-55ef-1955-beaa",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "bf68-1ce2-2b76-1bf8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "9a08-a4d5-626d-2dad",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "9626-bbd7-db4f-72de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Negan, Savior Leader",
+            "id": "7cfb-c51f-5f5b-e61e",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue 1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "8", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Die Hard", "id": "6341-97b6-833d-369e", "description": "Negan deducts 1 point of damage inflicted against him in each melee combat.", "hidden": false},
+          {
+            "name": "Leader Ability: Rule Through Fear",
+            "id": "4207-9dd8-c3aa-6157",
+            "description": "As an Action, Negan may execute a friendly model in his Kill Zone and replace it with a prone Walker. Then distribute1 Blue die extra Actions amongst the Survivors in his group yet to act (including Negan, max 1 per model).",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Lucille",
+            "id": "3e81-112e-4c75-dfce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "c506-570b-261f-c6d5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 25}],
+            "profiles": [
+              {
+                "name": "Lucille",
+                "id": "4440-b68b-70d0-1063",
+                "hidden": false,
+                "typeId": "ceb7-6d13-cb78-ec08",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee", "$text": "2 White", "typeId": "4bdc-0a61-b4e8-3f99"},
+                  {"name": "Special Rules", "$text": "If the attack rolls any !, immediately add 1 White to the roll.", "typeId": "b943-0b7f-c651-1b2b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Negan, Bad Mother******",
+        "id": "c72f-b865-9056-6976",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "91e2-fcab-fbf5-c3bb", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "1455-e81f-cf05-5166",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 56}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "61ad-106f-bcdb-9fbc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "d9b6-c70a-d87f-2be6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "91eb-107b-ccec-a91a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "b0c7-252b-2265-ae93",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "6c03-b93f-3a5e-9f9d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "8ada-b636-09d6-7484",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Negan, Bad Mother******",
+            "id": "5a4b-3de5-c844-85d8",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "6", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Here's Negan",
+            "id": "3caf-4cf7-e8a2-0d43",
+            "description": "If Negan removes one or more enemy Survivors from play in melee, all friendly Saviors treat their Nerve as High in the following Action Phase.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Impress Me!",
+            "id": "d7d6-8d14-adce-399c",
+            "description": "Each time a Budding Lieutenant model Impresses Negan (see other Survivor Cards) that model receives one red die, forming a special pool of dice on its card to use with any roll.",
+            "hidden": false
+          },
+          {
+            "name": "You Scared?",
+            "id": "5021-3a1c-53a8-0e4e",
+            "description": "Each time a friendly Savior within 6\" of Negan rolls a Yellow die, that model loses 1 Health, and Negan adds a Red die to his Melee value for the rest of the turn.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Lucille",
+            "id": "25ea-9bbe-5e71-840b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "1f3f-5115-be2f-2d13",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 25}],
+            "profiles": [
+              {
+                "name": "Lucille",
+                "id": "a461-f6b0-137d-bd40",
+                "hidden": false,
+                "typeId": "ceb7-6d13-cb78-ec08",
+                "typeName": "Melee Weapon",
+                "characteristics": [
+                  {"name": "Melee", "$text": "2 White", "typeId": "4bdc-0a61-b4e8-3f99"},
+                  {"name": "Special Rules", "$text": "If the attack rolls any !, immediately add 1 White to the roll.", "typeId": "b943-0b7f-c651-1b2b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tara, Budding Lieutenant",
+        "id": "ed10-2e8d-92f5-2fc5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Runner", "id": "46ae-4d2c-7178-9f8f", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "constraints": [
+          {
+            "id": "ff38-1be7-b23c-d2b2",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 32}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "d4c3-ce6f-a2ee-9cf3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "f4b7-1374-af18-43ca",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "ce3f-43be-d8ef-a76f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "e6da-8c81-7aaf-bb12",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "33c6-ea27-e869-a0bb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Tara, Budding Lieutenant",
+            "id": "9d4e-84c1-af0e-b362",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Clear the Way",
+            "id": "7d6f-b6ab-6903-9310",
+            "description": "Tara adds one Red die to her melee attack rolls vs Walkers. Each time she removes a Walker from play, she Impresses Negan.",
+            "hidden": false
+          },
+          {
+            "name": "Stab!",
+            "id": "9a46-cbe0-087d-d5b9",
+            "description": "Tara may reroll any of her melee attack dice when using a weapon with the Sharp keyword.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Dwight, Budding Lieutenant",
+        "id": "c8d8-e240-a87b-3758",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Marksman", "id": "cba2-f885-96ef-1fa7", "hidden": false, "primary": true, "targetId": "48a7-24df-def3-914a"}],
+        "constraints": [
+          {
+            "id": "6100-79df-19ce-9ec9",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 28}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "bbc2-3f70-998d-ec42",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "1871-2f50-ab3e-cf46",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "e9f3-027f-1cae-d143",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "a0b1-181f-4123-0105",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "95bd-4dd4-b349-fe8b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dwight, Budding Lieutenant",
+            "id": "944d-3dcd-b6d0-2d6f",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Marksman", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tread Lightly",
+            "id": "4aab-dc51-8fa0-7c46",
+            "description": "Each time Dwight Runs, roll one Black die. On a Shield, he does not cause NOISE.",
+            "hidden": false
+          },
+          {
+            "name": "Scavenger",
+            "id": "84dc-69f9-caa5-950a",
+            "description": "If Dwight makes a Swap Items Action to give an item or supply counter to Negan, this Impresses him.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sherry, Budding Lieutenant",
+        "id": "3af8-e305-b234-d835",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Support", "id": "2a2a-40ad-a445-d405", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "a934-bd41-eb20-d7fd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 20}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "1ffc-d901-f842-a817",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "edc0-ebe5-07aa-ae47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "dbbf-3416-cbef-4c70",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "2f99-5b37-de60-e40f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "6569-d073-94fb-0c65",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sherry, Budding Lieutenant",
+            "id": "ea7e-7470-5902-384e",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Low", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Insightful",
+            "id": "6e4c-beff-73e5-34e1",
+            "description": "Sherry may give up all of her Actions for the turn. If she does, immediately perform one free action with a friendly model within 6\". The target model may still activate normally later if it has not already done so. If the target of this ability is Negan it Impresses him.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "John, Budding Lieutenant",
+        "id": "62ea-c307-5e88-53b9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Bruiser", "id": "c622-99fe-4fad-5366", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {
+            "id": "5606-8593-ba15-e4fe",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 36}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "c369-1dda-a03d-6ee2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "0dc9-1505-80fe-b7a5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "7da9-25bc-20b8-a393",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "fe6a-209c-75c1-ca90",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "1f42-c4ef-7972-7b91",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "John, Budding Lieutenant",
+            "id": "b04d-96ea-c3ca-2f67",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White, 1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "4", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tank",
+            "id": "72c2-cd32-37f0-e47a",
+            "description": "If John's side is outnumbered in combat by 2:1 or more, add 1 White die to his melee attack roll. If John's side wins the combat, this Impresses Negan.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Laura, Budding Lieutenant",
+        "id": "5d1a-c2fd-114f-afb5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Tactician", "id": "2729-6a1e-503d-77c4", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "db08-c493-52c6-472d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "New EntryLink",
+            "id": "1877-0780-06d8-89b8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "7134-887a-24e9-e1e1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "New EntryLink",
+            "id": "2d9e-87d4-85ee-6625",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "b920-b4e3-68b5-ecab",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "dc13-f79e-6009-3422",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Laura, Budding Lieutenant",
+            "id": "5146-db06-bf33-02db",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Blue", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Saviors", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Resourceful",
+            "id": "a7d6-1b6f-0b13-600a",
+            "description": "Once per activation, Laura may discard one Special Item or supply counter to gain +1 Action, or grant +1 Action to a friendly model in her Kill Zone yet to activate. If Negan is the recipient, this Impresses him.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Teamwork Cards",
+        "id": "0e8c-eb2a-c707-c951",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Teamwork Cards",
+            "id": "0f18-22e9-b543-bf66",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c9f5-39a2-8e8d-a73c",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Teamwork Cards", "id": "bf24-048b-afc5-25a4", "hidden": false, "primary": false, "targetId": "38ef-10da-ce53-bd44"}]
+          }
+        ]
+      }
+    ]
+  }
+}
