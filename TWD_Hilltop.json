@@ -1,0 +1,417 @@
+{
+  "catalogue": {
+    "name": "Hilltop",
+    "id": "c8cb-5491-a74e-335b",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "125b-b4ca-b2a2-2c84",
+    "gameSystemRevision": 16,
+    "library": false,
+    "revision": 13,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Maggie Greene, Leader of Hilltop",
+        "id": "374b-7e3a-479e-174e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Tactician", "id": "6043-c76e-f90d-6588", "hidden": false, "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {
+            "id": "6616-1c2a-354f-7075",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 48}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "8f6e-a2ec-7685-0bb4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "aeb3-5f57-0843-c2ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "6b9f-c288-32d2-71fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "5e7d-29f9-ee26-60c4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "7244-2b9c-9d4c-76ee",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "8b45-bdcd-1ff7-49bf",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "fd52-5906-6e62-23d5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Maggie Greene, Leader of Hilltop",
+            "id": "cce2-312e-4e08-b0e8",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Blue", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Hilltop", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Tactical Advantage",
+            "id": "fb34-c6b3-9c02-e1d6",
+            "description": "At the start of a Melee phase in which any friendly Hilltop models are in combat (not including Maggie herself), roll 1Black. On a Shield, the Threat Level does not increase.",
+            "hidden": false
+          },
+          {
+            "name": "Widow",
+            "id": "d965-380b-2d52-64e4",
+            "description": "As long as a friendly Glenn is not in play, Maggie may reroll blanks on any White she rolls.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: Organised Leaderhship",
+            "id": "022d-4b16-85a6-277e",
+            "description": "Maggie may sacrifice any number of actions to add 1Blue per action to a special dice pool. In the Melee phase, friendly Hilltop models may add these dice to their side's melee attack or defense rolls, at a rate of 1Blue per combat.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Jesus, Hilltop Scout",
+        "id": "ec57-0b19-0834-5155",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Runner", "id": "fe06-11b9-9e95-9a20", "hidden": false, "primary": true, "targetId": "e123-2d67-1fcc-51f5"}],
+        "constraints": [
+          {
+            "id": "fa92-e2ac-6b53-aae6",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 55}],
+        "entryLinks": [
+          {
+            "name": "Armor",
+            "id": "addc-2efc-a051-7c1b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "4c8d-72b2-3513-e270",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "15ca-1fd7-2f02-ac01",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "e5cb-5c35-a2ad-ac23",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "004a-b8f9-b321-502b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3e9e-4f73-0c94-9b83",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "5d46-04dd-9b8d-50e0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Jesus, Hilltop Scout",
+            "id": "60be-2a43-1a3d-58bb",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Blue", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White, 1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Runner", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Hilltop", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Martial Artist",
+            "id": "6909-7b6f-f295-6d9c",
+            "description": "When Jesus has no Melee Weapon equipped, he adds 1White to his melee attack rolls and gains the Stun keyword.",
+            "hidden": false
+          },
+          {
+            "name": "Moving Target",
+            "id": "bc6d-a9c4-1185-ff5b",
+            "description": "When Jesus Runs 5\" or more in his activation, he adds 1Blue to his Defense for the rest of the turn.",
+            "hidden": false
+          },
+          {
+            "name": "Disarm",
+            "id": "2dd8-354d-193d-eb29",
+            "description": "If Jesus defends in melee and his side wins, you may roll 1Black. On a Shield, Jesus steals one random equipped melee weapon from an opponent. He must choose to either equip it (if permitted) or discard it (he may not put it in a Pack slot).",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Sophia, Surrogate Daughter",
+        "id": "a796-47fb-303d-0a6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Support", "id": "5035-4865-3f7d-c2be", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {
+            "id": "905c-3942-7cd9-2d5a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 16}],
+        "entryLinks": [
+          {
+            "name": "Ranged Weapons",
+            "id": "afc5-67aa-6962-2d96",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "0364-27b4-0bca-5108",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "ed59-ce3a-b9ae-0fe1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Armor",
+            "id": "22b1-da8b-5405-801b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2001-f500-8791-03fc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Leader",
+            "id": "a481-0c94-470f-8716",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e639-12e7-1dde-0155",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "d3f1-c77e-35d5-c0cf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Sophia, Surrogate Daughter",
+            "id": "dbc1-584e-e0b9-7889",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "-", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "Hilltop", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Supportive Daughter",
+            "id": "0377-10f8-9c5c-72b7",
+            "description": "If a friendly Maggie Greene is within Sophia's Kill Zone and is yet to activate, Sophia may sacrifice one of her Actions to give Maggie +1 Action. If she does this, roll 1Black: on a Shield, Maggie activates as soon as Sophia's activation is complete.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Teamwork Cards",
+        "id": "a749-5432-c87e-2116",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 0}],
+        "entryLinks": [
+          {
+            "name": "Teamwork Cards",
+            "id": "c8e4-de1b-6be3-b477",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "c9f5-39a2-8e8d-a73c",
+            "type": "selectionEntryGroup",
+            "categoryLinks": [{"name": "Teamwork Cards", "id": "60b7-367c-d9c6-a761", "hidden": false, "primary": false, "targetId": "38ef-10da-ce53-bd44"}]
+          }
+        ]
+      }
+    ]
+  }
+}
