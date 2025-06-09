@@ -1,0 +1,733 @@
+{
+  "catalogue": {
+    "name": "The Commonwealth",
+    "id": "c1f3-d2d7-5249-d4c7",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "125b-b4ca-b2a2-2c84",
+    "gameSystemRevision": 16,
+    "library": false,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Mercer, Commonwealth General",
+        "id": "a05e-9c7a-1d1d-f297",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Bruiser", "id": "ad07-ced3-affa-f7a1", "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {"id": "3966-28e9-4564-a878", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "b9ca-e46d-c9d7-d93b", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "b427-56de-93e8-6dea", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 62}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "f346-e20b-0aef-c953",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4d2b-a241-a9c1-c0b4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "0ed0-e996-33fc-5e1b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "59dd-96f8-8950-2955",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "32f9-dab2-cbbd-43d6",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "1946-2d5f-9b09-24dc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "4869-f2ac-42fc-75ef",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "e0bb-06c0-ca3a-d9a3", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Mercer, Commonwealth General",
+            "id": "e684-393b-62f0-9909",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White, 1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "2 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "7", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {"name": "Rebellious Streak", "id": "a957-160e-af8e-df77", "description": "Mercer cannot be the Leader if Pamela Milton is in the same group.", "hidden": false},
+          {
+            "name": "Show Them How It's Done",
+            "id": "39ad-3fb3-4d24-ff85",
+            "description": "At the end of a turn in which Mercer removes at least 2 Walkers from play, reduce the Threat Level by 1.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: General",
+            "id": "4367-1006-62d1-ba4e",
+            "description": "When Mercer is the Leader, you may include any number of Commonwealth Troopers in your group, regardless of Type. Models with the Commonwealth Trooper name or subtitle within 6\" of Mercer treat their Nerve as High.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Pamela Milton, Commonwealth Governor",
+        "id": "f8c4-eaff-abd6-1899",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Tactician", "id": "76b2-c6ef-3f84-97ee", "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "constraints": [
+          {"id": "b67b-5cd5-310d-f680", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "a37a-88e7-9ebd-39d2", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "1271-d636-da93-9107", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 34}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "9592-c8fe-e630-32e4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "a3cc-ac7e-f1c2-99bd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "94b9-2b7b-21c3-b29b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "cea9-33e1-6a0f-16b3",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "8fa5-edab-7733-d695",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "6fc3-e4b4-f97c-0982",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "5af6-26ec-bfad-4dc9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "6290-81b0-c82d-dec4", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Pamela Milton, Commonwealth Governor",
+            "id": "8377-0b78-092a-f7b9",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "2 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Hierarchical",
+            "id": "50f0-20a6-6c66-6fe2",
+            "description": "When Pamela is targeted by a ranged attack you may choose one friendly Minion in her Kill Zone and roll 1Black. On a Shield, that model takes the attack instead of er, even if it was not in range or line of sight.",
+            "hidden": false
+          },
+          {
+            "name": "Leader Ability: New World Order",
+            "id": "505e-b001-34b0-02f4",
+            "description": "Once per game, as a special action, Pamela awards 1Red to every friendly Commonwealth model within 8\". This turn, each model may add this bonus die to a single attack or defense roll. Unused dice are lost at the end of the turn.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Jerome, Commonwealth Trooper",
+        "id": "d48d-eca1-32e0-ee06",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Support", "id": "d82e-889f-a365-cd4b", "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {"id": "5750-7d90-ba1d-8277", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "ad01-58b9-427e-f717", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "b8ac-474a-ed7f-cd51", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 26}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "d7a4-dab8-4865-3ead",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "581d-7aa8-9597-7849",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4d04-81b2-f466-6c59",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "2e0d-a16c-856c-12eb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "40db-f40c-cd15-1da8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "36d5-25bb-0f38-4f26",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "b19e-8154-1249-271e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "d125-3301-7967-446a", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Jerome, Commonwealth Trooper",
+            "id": "8bd9-7daa-9386-8e4e",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "2 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Sense of Duty",
+            "id": "346a-4116-ff7f-35aa",
+            "description": "Once per activation, Jerome may sacrifice one of his Actions to add 1Red to the Defense of all friendly models in his Kill Zone.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Lance Hornsby, Commonwealth Administrator",
+        "id": "b6ed-9a13-db13-26ff",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Support", "id": "4aeb-02c4-73b6-5a0d", "hidden": false, "primary": true, "targetId": "fbb7-4f0b-b3a0-4027"}],
+        "constraints": [
+          {"id": "3c64-2950-a4b5-c697", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "e4a1-7746-4069-5870", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "06c7-e9af-5c57-1518", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 32}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "3051-218e-4adf-c36d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2132-4260-2ca5-f50a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4b0f-0485-0cff-5633",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "15f1-ff38-8293-5aaf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "fa4a-40ce-6358-a388",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "e5de-5146-e548-3696",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "858c-3b8b-719f-d092",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "1b1e-413f-479f-e2d7", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "Lance Hornsby, Commonwealth Administrator",
+            "id": "dfc7-7be8-5fa7-bc95",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "2 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Low", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "4", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Support", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bean Counter",
+            "id": "7e49-c1f5-8c47-920e",
+            "description": "The first friendly model each turn to fail an out of Ammo! roll while in line of sight of Lance ignores the failed roll.",
+            "hidden": false
+          },
+          {
+            "name": "Call the Shots",
+            "id": "8c50-81ba-82ef-1ae5",
+            "description": "While there are at least two models with the Commonwealth Trooper name or subtitle in Lance's Kill Zone, Lance cannot Panic, and those troopers add 1Red to their ranged attack rolls.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Commonwealth Trooper 1",
+        "id": "4183-5e17-069f-c2ed",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Marksman", "id": "63b2-41a7-a578-c0aa", "primary": true, "targetId": "48a7-24df-def3-914a"}],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 60}],
+        "entryLinks": [
+          {
+            "name": "Melee Weapons",
+            "id": "2624-e007-21f2-64de",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "d031-2b21-d2e8-11cf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "bad7-7798-4e99-b0ab",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "3170-5832-aaf2-2452", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"name": "Minion", "id": "10a3-9b32-692d-e926", "hidden": false, "targetId": "7f1c-a5b9-57b2-4dce", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Commonwealth Trooper 1",
+            "id": "c41c-eed5-769e-6ec9",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Marksman", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Standard Issue",
+            "id": "53fa-559d-7725-4889",
+            "description": "This model must begin play with 1x Commonwealth Assault Rifle, 1x Commonwealth Armor, and 1x Commonwealth Helmet, marked Commonwealth. These cards are included in the model's points value.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "George, Commonwealth Trooper",
+        "id": "2e52-50b2-9202-9a34",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Bruiser", "id": "9dec-204a-36e4-fa7e", "hidden": false, "primary": true, "targetId": "1c6d-9084-4b8d-4340"}],
+        "constraints": [
+          {"id": "55ac-f176-ea5b-6e25", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
+          {"id": "9bd2-7654-d7c0-af9c", "field": "selections", "includeChildSelections": false, "scope": "force", "shared": true, "type": "max", "value": 1},
+          {"id": "bdde-9314-b15d-cdce", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "max", "value": 1}
+        ],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 36}],
+        "entryLinks": [
+          {
+            "name": "Leader",
+            "id": "819b-a113-6ce8-d97b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "98ad-7da5-3e64-b49c",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "ace7-488d-407c-0b03",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "3f5b-b02e-d506-c5ed",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Melee Weapons",
+            "id": "6f89-0443-7a94-4080",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "6861-b1c1-f3e7-c6d1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "3bee-7314-377d-4120",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Veteran Skills",
+            "id": "7e3a-0713-e535-eacc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "7860-8e62-efb4-029c",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "05b8-77a2-28b6-7953", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "profiles": [
+          {
+            "name": "George, Commonwealth Trooper",
+            "id": "9f26-5e20-60a4-9982",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 White", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 White", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 White", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "High", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "5", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "3", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Bruiser", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Mercer's Lieutenant",
+            "id": "5c75-e1a1-a89e-12f6",
+            "description": "In any turn in which a friendly Mercer model is wounded, George gains one bonus Action.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Commonwealth Trooper 2",
+        "id": "8a4f-b2b2-e6fa-e5f6",
+        "hidden": false,
+        "import": true,
+        "type": "model",
+        "categoryLinks": [{"name": "Tactician", "id": "fd72-cbde-a22c-49b4", "primary": true, "targetId": "b936-ac92-62ac-545e"}],
+        "costs": [{"name": "Points", "typeId": "12b3-6d46-0f10-4927", "value": 60}],
+        "entryLinks": [
+          {
+            "name": "Melee Weapons",
+            "id": "8be0-60ba-e3ea-73be",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "f0c2-0e7e-e14b-7efc",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Ranged Weapons",
+            "id": "fe4a-d78b-c6e0-b1ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6b77-41b1-2644-d329",
+            "type": "selectionEntryGroup"
+          },
+          {
+            "name": "Special Item",
+            "id": "209e-ead7-61f8-7d9f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "b34b-448f-7dbf-e35a",
+            "type": "selectionEntryGroup"
+          },
+          {"name": "Armor", "id": "3e1c-afbc-f92a-49c5", "hidden": false, "import": true, "targetId": "2001-f500-8791-03fc", "type": "selectionEntryGroup"}
+        ],
+        "infoLinks": [{"name": "Minion", "id": "902e-bab8-c611-b034", "hidden": false, "targetId": "7f1c-a5b9-57b2-4dce", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Commonwealth Trooper 1",
+            "id": "6812-759a-2ad4-4549",
+            "hidden": false,
+            "typeId": "576a-0cd5-7049-1929",
+            "typeName": "Character",
+            "characteristics": [
+              {"name": "Melee", "$text": "1 Red", "typeId": "196c-33c8-fa61-e487"},
+              {"name": "Shoot", "$text": "1 Red", "typeId": "b194-007f-e62d-dc66"},
+              {"name": "Defense", "$text": "1 Red", "typeId": "d237-9148-7cf3-c9da"},
+              {"name": "Nerve", "$text": "Medium", "typeId": "4fa6-07d4-6f84-b43c"},
+              {"name": "Health", "$text": "3", "typeId": "4213-f86f-906e-7aaa"},
+              {"name": "Pack", "$text": "2", "typeId": "b15d-caad-9f43-74cb"},
+              {"name": "Character Type", "$text": "Tactician", "typeId": "f6f9-dbce-b2a7-8af0"},
+              {"name": "Faction", "$text": "The Commonwealth", "typeId": "7f76-cafe-10e5-f259"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Standard Issue",
+            "id": "ad5e-6c90-e236-d6d7",
+            "description": "This model must begin play with 1x Commonwealth Assault Rifle, 1x Commonwealth Armor, and 1x Commonwealth Helmet, marked Commonwealth. These cards are included in the model's points value.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
